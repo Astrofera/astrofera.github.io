@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -8,13 +8,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
  <div class="jumbotron">
-  <center><h1>Britney Spears</h1></center>     
+  <center><h1>Britney Spears</h1></center>   
     <p></p>
  </div>
 
@@ -23,17 +24,17 @@
 
        <div class="col-sm-4">
          <img src="imagem1.jpg" class="img-circle" style="max-width:215px; height:200px;"/>
-         <p>VEGAS</p>
+         <p>Legenda1</p>
        </div>
 
        <div class="col-sm-4">
 		    <img src="imagem2.jpg" class="img-circle" style="max-width:215px; height:200px;"/>
-        <p>Notícias</p>
+        <p>Legenda2</p>
        </div>
 
        <div class="col-sm-4">
        		<img src="imagem3.jpg" class="img-circle" style="max-width:215px; height:200px;"/>
-          <p>Biográfia</p>
+          <p>Legenda3</p>
        </div>
 
    </div><!-- fecha div Row-->
@@ -41,7 +42,7 @@
    <p></p>
    <div class="row">
    		<div class="col-sm-12">
-        <h1><abbr title="Titulo do Show,Piece of me"> POM</abbr><small>  Fique ligado no que está por vir!</small></h1>
+        <h1><abbr title="Titulo do Show, Piace Of me"> POM</abbr><small>  Fique ligado no que está por vir!</small></h1>
        </div>
    </div><!-- fecha div Row-->
 
@@ -81,6 +82,36 @@
 
 <p></p><p></p>
 
+<div class="panel-group">
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+      <a data-toggle="collapse" href="#collapse1">Fotos <small>do ultimo show</small></a>
+      </h4>
+    </div> <!-- fecha panel-heading-->
+
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="col-sm-4">
+         <img src="Foto1.jpg" class="img-circle" style="max-width:215px; height:200px;"/>
+        </div>
+
+       <div class="col-sm-4">
+        <img src="Foto2.jpg" class="img-circle" style="max-width:200px; height:200px;"/>
+       </div>
+
+       <div class="col-sm-4">
+          <img src="Foto3.jpg" class="img-circle" style="max-width:215px; height:200px;"/>
+       </div>
+
+      </div><!-- panel-body-->
+    </div> <!-- fecha collapse1-->
+
+    </div> <!-- fecha panel panel-default-->
+  </div> <!-- fecha panel-group-->
+
+<p></p><p></p>
+
 <div class="container">
 
   <h1>Testemunhos<small> de quem foi e gostou!</small></h1>
@@ -96,6 +127,61 @@
   </blockquote>
 
 </div><!-- fecha div class container-->
+
+<p></p><p></p>
+
+<center>
+  <h1>Entre em contato</h1>
+
+<div id="contato" style="border:solid 1px black; width:480px;"> 
+<p></p>
+<p> <label>Nome:</label><input type="text"/></p>
+<p> <label>E-mail:</label><input type="e-mail"/></p>
+<p>
+<label>Estado:</label>
+
+  <select name='estado'>
+  <option selected>Selecione</option>
+  <option>------------------</option>
+  <option>Acre</option>
+  <option>Alagoas</option>
+  <option>Amapa</option>
+  <option>Amazonas</option>
+  <option>Bahia</option>
+  <option>Ceara</option>
+  <option>Distrito Federal</option>
+  <option>Espirito Santo</option>
+  <option>Goias</option>
+  <option>Mato Grosso</option>
+  <option>Mato G. do Sul</option>
+  <option>Maranh&atilde;o</option>
+  <option>Minas Gerais</option>
+  <option>Para</option>
+  <option>Paraiba</option>
+  <option>Parana</option>
+  <option>Pernambuco</option>
+  <option>Piaui</option>
+  <option>Rio de Janeiro</option>
+  <option>Rio Grande do Norte</option>
+  <option>Rio Grande do Sul</option>
+  <option>Rondonia</option>
+  <option>Roraima</option>
+  <option>Santa Catarina</option>
+  <option>Sao Paulo</option>
+  <option>Sergipe</option>
+  <option>Tocantins</option>
+  </select>
+
+  <button type="button" class="btn btn-info">Feminino</button> 
+  <button type="button" class="btn btn-info">Masculino</button>
+</p>
+<p><label>Mensagem:</label></p>
+<p><textarea rows="4" cols="50"></textarea></p>
+<p><input type="submit" value="Enviar"/></p>
+</div> <!-- fecha div contato-->
+</center>
+
+<p></p><p></p>
 </body>
 </html>
 
